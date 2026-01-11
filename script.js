@@ -7,6 +7,13 @@ const teamData = [
         image: "images/tom_chen.avif",
         linkedin: "https://www.linkedin.com/in/tomchen1581"
     },
+      {
+        name: "Jeremy Senh",
+        primaryRole: "Primary Data Architect",
+        secondaryRole: "Secondary Project Manager",
+        image: "images/jeremy_senh.avif",
+        linkedin: "https://www.linkedin.com/in/jeremy-senh/"
+    },
     {
         name: "Christopher Straface",
         primaryRole: "Primary Designer",
@@ -14,13 +21,7 @@ const teamData = [
         image: "images/christopher_straface.avif",
         linkedin: "https://www.linkedin.com/in/christopher-straface-a84338276/"
     },
-    {
-        name: "Jeremy Senh",
-        primaryRole: "Primary Data Architect",
-        secondaryRole: "Secondary Project Manager",
-        image: "images/jeremy_senh.avif",
-        linkedin: "https://www.linkedin.com/in/jeremy-senh/"
-    },
+
     {
         name: "Chloe To",
         primaryRole: "Primary Project Manager",
