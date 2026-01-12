@@ -2,6 +2,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-wrap: pretty;
         }
 
         body {
@@ -74,6 +75,7 @@
 
         .mono-text {
             font-family: 'DM Mono', monospace;
+            color: #fc0;
         }
 
         /* Team Section */
@@ -209,7 +211,7 @@
         }
 
         /* LARGE */
-        @media (max-width: 1024px) {
+        @media (930px <= width < 1024px) {
             .header {
                 padding: 33px 30px 32px;
             }
@@ -255,7 +257,7 @@
         }
 
         /* Medium screens - 2 columns */
-        @media (max-width: 768px) {
+        @media (width < 930px) {
             .team-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 30px;
