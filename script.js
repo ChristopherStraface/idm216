@@ -66,9 +66,12 @@ const teamData = [
             const primaryRole = document.createElement('span');
             primaryRole.className = 'role-primary';
             primaryRole.textContent = member.primaryRole;
+
+            const lineBreak = document.createElement('br');
             
             role.appendChild(primaryRole);
-            role.appendChild(document.createTextNode(', ' + member.secondaryRole));
+            role.appendChild(lineBreak);
+            role.appendChild(document.createTextNode(member.secondaryRole));
             
             info.appendChild(name);
             info.appendChild(role);
